@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          _incrementCounter();
+          // _incrementCounter();
           Navigator.push(context, MaterialPageRoute(builder: (context) {
             return const FirstScreen();
           }));
