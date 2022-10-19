@@ -13,7 +13,7 @@ class SecondScreen extends StatelessWidget {
             return const FirstScreen();
           }));
         },
-        child: const Text('Go back to first'),
+        child: const Text('Go back to 1st'),
       ),
     );
   }
